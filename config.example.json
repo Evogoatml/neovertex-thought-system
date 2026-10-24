@@ -1,0 +1,6 @@
+{
+  "mode": "deep",
+  "hardening": 1,
+  "output": "structured",
+  "think_depth": 3
+}
