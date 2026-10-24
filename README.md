@@ -63,6 +63,8 @@ The settings file accepts only `mode`, `hardening`, `output`, and `think_depth`.
 
 The prompt asks for concise conclusions and verifiable reasons, not hidden reasoning traces or fictitious Merkle hashing. Model behavior can vary by provider; this is a prompt toolkit, not a guarantee of correctness or a security boundary.
 
+For a ready-to-paste default prompt, see [`prompts/nexus_forge_v2.txt`](prompts/nexus_forge_v2.txt). The CLI renders the same framework with selected controls.
+
 ## Use from Python
 
 ```python
@@ -93,6 +95,7 @@ python -m unittest discover -s tests -v
 - `src/nexus_forge/config.py` validates controls and reads JSON configuration.
 - `src/nexus_forge/prompt.py` renders the reusable prompt.
 - `src/nexus_forge/prompt_template.txt` contains the unified NEXUS_FORGE prompt.
+- `prompts/nexus_forge_v2.txt` is the ready-to-paste default unified prompt.
 - `examples/requests.md` shows control panels for common tasks.
 - `tests/` covers configuration and prompt generation.
 
